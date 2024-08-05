@@ -74,8 +74,8 @@ const Navbar = () => {
 
       </nav >
       <nav  className="flex items-center justify-center flex-wrap">
-      <motion.a href="https://github.com" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}className='w-6 mx-3 sm:mx-1'><GithubIcon /></motion.a>
-      <motion.a href="https://LinkedIn.com" target={"_blank"} whileHover={{y:-2}}whileTap={{scale:0.9}}className='w-6 mx-3 sm:mx-1' ><LinkedInIcon/></motion.a>
+      <motion.a href="https://github.com/RakshitDevra" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}className='w-6 mx-3 sm:mx-1'><GithubIcon /></motion.a>
+      <motion.a href="https://www.linkedin.com/in/rakshit-devra-48102720a/" target={"_blank"} whileHover={{y:-2}}whileTap={{scale:0.9}}className='w-6 mx-3 sm:mx-1' ><LinkedInIcon/></motion.a>
 
       <button onClick={()=> setMode(mode==="light"?"dark":"light") } className ={`ml-3 flex items-center justify-center rounded-full p-1 ${mode ==="light"? "bg-dark text-light" :"bg-light text-dark"}`}>{
         mode==="dark"?<SunIcon className={"fill-dark"} />:<MoonIcon className={"fill-dark"} />
