@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Rakshit Portfolio</title>
-        <meta name="description" content="Rakshit Devra Personal Portfolio" />
+        <meta name="description" content=" Portfolio Website" />
     <meta name="google-site-verification" content="pGx796kimjETeKepSZ8aFLC06e9RiO_ua7k590fW_c8" />
        
       </Head>
