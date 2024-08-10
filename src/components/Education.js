@@ -15,7 +15,7 @@ const Details=({type,time,place,info})=>{
     transition={{duration:0.5,type:"spring"}}>
             <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg '>{type} &nbsp; </h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'> 
-            {time} |{place}</span>
+            {time}  {place}</span>
             <p className='font-medium w-full md:text-sm'>
                 {info}
             </p>
@@ -38,13 +38,13 @@ Education
     <div ref ={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
     <motion.div style={{scaleY:scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'></motion.div>
 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-    <Details type="Bachelor Of Technology In Computer Engineering" place ="College Of Technology,G.B Pant University Pantnagar,Uttrakhand" time="2020-2024" info="
+    <Details type="Bachelor Of Technology In Computer Engineering" place ="College Of Technology,G.B Pant University Pantnagar,Uttrakhand" time="2020-2024 |" info="
 Relevant courses included Data Structures,Design and Analysis of Algorithm,DBMS,Operating System,Computer Networks,Programming Languages,Artificial Intelligence,Data Mining.
 "
 />
-<Details type="Class 12th" place ="Dehradun Public School,Ghaziabad,UttarPradesh" time="2017-2018" info=""
+<Details type="Class 12th" place ="Dehradun Public School,Ghaziabad,UttarPradesh" time="" info=""
 
-/> <Details type="Class 10th" place ="Dehradun Public School,Ghaziabad,UttarPradesh" time="2015-2016" info=""
+/> <Details type="Class 10th" place ="Dehradun Public School,Ghaziabad,UttarPradesh" time="" info=""
 />
 </ul>
 
