@@ -26,7 +26,7 @@ export default function Home() {
       <Layout className='pt-0 md:pt-16 sm:pt-8 '>
         <div className='flex items-center justify-between w-full lg:flex-col  ' >
         <div className='w-1/2 md:w-full '>
-          <Image src={profilePic} alt="Rakshit's image" className='w-full h-auto  lg:hidden md:inline-block md:w-full' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,50vw" />
+          <Image src={profilePic} alt="Rakshit's image" className='w-full h-auto md:inline-block md:w-full' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,50vw" />
           </div>
           <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center '>
           <AnimatedText text="Turning Vision Into Reality With Code And Design" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl  ' />
@@ -37,7 +37,7 @@ export default function Home() {
 
           </p>
           <div className='flex items-center self-start mt-2 lg:self-center '>
-            <Link href="/RakshitDevraResume (9).pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid  border-transparent border-2 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base   ' download={true}>Resume <LinkArrow className={"w-6 ml-1 "}/></Link>
+            <Link href="/RakshitDevra_Resume.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid  border-transparent border-2 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base   ' download={true}>Resume <LinkArrow className={"w-6 ml-1 "}/></Link>
             <Link href="mailto:rakshitdevra123@gmail.com?subject=Regarding Employment Opportunity" target={"_blank"} className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base '>Contact</Link>
           </div>
         </div>
