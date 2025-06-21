@@ -14,7 +14,7 @@ import FlipkatClone from "../../public/images/projects/FlipkartClone.png"
 import MovingCars from "../../public/images/projects/MovingLamborghini.png"
 import Portfolio from "../../public/images/projects/Portfolio.png"
 import FbLoginPage from "../../public/images/projects/FbLoginPage.png"
-
+import hirrdimage from "../../public/images/projects/Hirrd.png"
 
 import {motion} from "framer-motion"; 
 import TransitionEffect from '@/components/TransitionEffect'
@@ -87,6 +87,18 @@ summary="Schedulrr is a powerful and intuitive scheduling application designed t
                    <FeaturedProject title="NewsMonkey Application" 
 summary="NewsMonkey is a dynamic news application designed to keep you updated with the latest news from around the world. Built using React, NewsMonkey offers a seamless and responsive user experience, allowing you to explore news articles across various categories effortlessly. Whether you're interested in Technology, Sports, Health, or entertainment, NewsMonkey has you covered with real-time updates and a clean, intuitive interface.(Due to the limitation of NewsAPI it only fetches news in development mode)" link=" https://rakshitdevra.github.io/NewsApplication/" type="Featured Project"  img={project1} github="https://github.com/RakshitDevra/NewsApplication" videolink={"https://drive.google.com/file/d/1uAnpBX6fps7Fv3xx-o3mxWx9smNG9coe/view?usp=sharing"}/>
                 </div>
+                <div className='col-span-12'>
+                <FeaturedProject 
+  title="Hirrd - Job Posting & Seeking Platform" 
+  summary="Hirrd is a comprehensive job platform designed to bridge the gap between recruiters and candidates. Built using modern web technologies, Hirrd enables recruiters to post jobs effortlessly while allowing job seekers to explore and apply to relevant opportunities in real-time. The platform offers a seamless and responsive user experience with features like job filtering by location and domain, secure authentication, and rich job descriptions. Whether you're looking to hire top talent or find your next career move, Hirrd makes the process simple, intuitive, and efficient." 
+  link="https://hirrd-tulh.vercel.app/" 
+  type="Featured Project"  
+  img={hirrdimage} 
+  github="https://github.com/RakshitDevra/hirrd" 
+  videolink="" 
+/>
+                   </div>
+                
                 <div className='col-span-6 sm:col-span-12'>
                 <Project title="TextUtils Application" 
 summary="TextUtils is a versatile text manipulation application built using React, designed to simplify text handling tasks. With TextUtils, users can easily convert text to uppercase or lowercase, remove extra spaces, and copy text to the clipboard. The application also features a Dark Mode for comfortable viewing and provides alerts to enhance the overall user experience." link="https://rakshitdevra.github.io/TextUtilsReact/" type="Project 3"  img={TextUtils} github="https://github.com/RakshitDevra/TextUtilsReact" />
