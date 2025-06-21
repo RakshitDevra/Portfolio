@@ -83,11 +83,6 @@ const projects = () => {
                    <FeaturedProject title="Schedulrr Application" 
 summary="Schedulrr is a powerful and intuitive scheduling application designed to simplify event management and meeting coordination. Built with Next.js,it provides a seamless experience for individuals and teams to set availability, create events, and schedule meetings effortlessly. With its smart automation and user-friendly interface, Schedulrr eliminates scheduling conflicts and enhances productivity, making it the perfect tool for both personal and professional use." link=" https://myschedulrr.vercel.app/" type="Featured Project"  img={Schedulrr} github="https://github.com/RakshitDevra/Portfolio" videolink={"https://drive.google.com/file/d/1sK9VCn6Ar0p8z4xNiBY1u5B5rwzn8G0b/view?usp=sharing"}/>
                 </div>
-                <div className='col-span-12'>
-                   <FeaturedProject title="NewsMonkey Application" 
-summary="NewsMonkey is a dynamic news application designed to keep you updated with the latest news from around the world. Built using React, NewsMonkey offers a seamless and responsive user experience, allowing you to explore news articles across various categories effortlessly. Whether you're interested in Technology, Sports, Health, or entertainment, NewsMonkey has you covered with real-time updates and a clean, intuitive interface.(Due to the limitation of NewsAPI it only fetches news in development mode)" link=" https://rakshitdevra.github.io/NewsApplication/" type="Featured Project"  img={project1} github="https://github.com/RakshitDevra/NewsApplication" videolink={"https://drive.google.com/file/d/1uAnpBX6fps7Fv3xx-o3mxWx9smNG9coe/view?usp=sharing"}/>
-                </div>
-                <div className='col-span-12'>
                 <FeaturedProject 
   title="Hirrd - Job Posting & Seeking Platform" 
   summary="Hirrd is a comprehensive job platform designed to bridge the gap between recruiters and candidates. Built using modern web technologies, Hirrd enables recruiters to post jobs effortlessly while allowing job seekers to explore and apply to relevant opportunities in real-time. The platform offers a seamless and responsive user experience with features like job filtering by location and domain, secure authentication, and rich job descriptions. Whether you're looking to hire top talent or find your next career move, Hirrd makes the process simple, intuitive, and efficient." 
@@ -98,6 +93,12 @@ summary="NewsMonkey is a dynamic news application designed to keep you updated w
   videolink="" 
 />
                    </div>
+                <div className='col-span-12'>
+                   <FeaturedProject title="NewsMonkey Application" 
+summary="NewsMonkey is a dynamic news application designed to keep you updated with the latest news from around the world. Built using React, NewsMonkey offers a seamless and responsive user experience, allowing you to explore news articles across various categories effortlessly. Whether you're interested in Technology, Sports, Health, or entertainment, NewsMonkey has you covered with real-time updates and a clean, intuitive interface.(Due to the limitation of NewsAPI it only fetches news in development mode)" link=" https://rakshitdevra.github.io/NewsApplication/" type="Featured Project"  img={project1} github="https://github.com/RakshitDevra/NewsApplication" videolink={"https://drive.google.com/file/d/1uAnpBX6fps7Fv3xx-o3mxWx9smNG9coe/view?usp=sharing"}/>
+                </div>
+                <div className='col-span-12'>
+                
                 
                 <div className='col-span-6 sm:col-span-12'>
                 <Project title="TextUtils Application" 
